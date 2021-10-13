@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORLD OF BENTLEY</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/sub3_style.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/jquery.fullPage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slick.css">
+</head>
+<!-- 09.30 end -->
+<body>
+    <? include "../nav/nav_index.html";?>
+    <main id="fullpage">
+        <section id="section1" class="section">
+            <div class="section1">
+                <div class="cont_box">
+                    <div class="item item1">
+                        <div class="text_box">
+                            <h2>THE ELECTRIC BENTLEY IS COMING</h2>
+                            <p>In 2020, our Beyond100 strategy was announced. A roadmap for our transformation into the world’s leading sustainable luxury mobility brand, it commits us to an electric future. </p>
+                            <a href="#"><em>Read more</em></a>
+                        </div>
+                        <div class="icon">
+                            <i class="fas fa-charging-station"></i>
+                        </div>
+                    </div>
+                    <div class="item item2">
+                        <div class="text_box">
+                            <h2>TOMORROW AND BEYOND</h2>
+                            <p>Bentley is creating a future driven by new technologies, materials, fuels and skills, in the pursuit of a progressive, new world: one in which the highest levels of luxury mobility are achieved with sustainable methods.</p>
+                            <a href="#"><em>Read more</em></a>
+                        </div>
+                        <div class="icon">
+                            <i class="fas fa-hammer"></i>
+                        </div>
+                    </div>
+                    <div class="item item3">
+                        <div class="text_box">
+                            <h2>EXP 100 GT CONCEPT</h2>
+                            <p>The Bentley EXP 100 GT explores how grand touring could look in 2035. Inspired by the elements of travel. It is designed to stimulate all the senses to enhance the wellbeing of everyone who travels in it.</p>
+                            <a href="#"><em>Read more</em></a>
+                        </div>
+                        <div class="icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                    </div>
+                    <div class="item item4">
+                        <div class="text_box">
+                            <h2>BENTLEY BRAND MANIFESTO</h2>
+                            <p>We’re taking the next step on our own extraordinary journey – one that sees Bentley becoming the most sustainable luxury automotive brand in the world.</p>
+                            <a href="#"><em>Read more</em></a>
+                        </div>
+                        <div class="icon">
+                            <i class="fas fa-space-shuttle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //section1 -->
+        <section id="section2" class="section">
+            <div class="section2">
+                <div class="cont_box">
+                    <div class="item item1">
+                        <img src="../img/sub3/section2_1.jpg" alt="">
+                        <div class="text_box">
+                            <a href="#">
+                                <h3>BENTLEY NETWORK</h3>
+                                <p>The Bentley Network is a convenient and unique app for your Apple or Android device that provides your own tailored access to Bentley. Read more...</p>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="item item2">
+                        <img src="../img/sub3/section2_2.jpg" alt="">
+                        <div class="text_box">
+                            <a href="#">
+                                <h3>MY BENTLEY CONNECTED CAR</h3>
+                                <p>The Bentley Network is a convenient and unique app for your Apple or Android device that provides your own tailored access to Bentley. Read more...</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item item3">
+                        <img src="../img/sub3/section2_3.jpg" alt="">
+                        <div class="text_box">
+                            <a href="#">
+                                <h3>FINANCIAL SERVICES</h3>
+                                <p>The Bentley Network is a convenient and unique app for your Apple or Android device that provides your own tailored access to Bentley. Read more...</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item item4">
+                        <img src="../img/sub3/section2_4.jpg" alt="">
+                        <div class="text_box">
+                            <a href="#">
+                                <h3>BENTLEY ACCESSORIES</h3>
+                                <p>The Bentley Network is a convenient and unique app for your Apple or Android device that provides your own tailored access to Bentley. Read more...</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //section2 -->
+        <? include "../footer/footer.html";?>
+    </main>
+    <div class="scroll_dow"></div>
+    <!-- //main -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="../js/jquery.min_1.12.4.js"></script>
+    <script src="../js/modernizr-custom.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/lightgallery.min.js"></script>
+    <script src="../js/jquery.fullPage.js"></script>
+
+    <script>
+
+        $(".section1 > .cont_box > .item").mouseenter(function(){
+            $(this).find(".icon > i").css({opacity : 1});
+        })
+        .mouseleave(function(){
+            $(".section1 > .cont_box > .item").find(".icon > i").css({opacity : 0.4});
+        });
+
+        $("#section1").mouseleave(function(){
+            $(".section1 > .cont_box > .item").removeClass("active");
+        });
+
+        $(".section1 > .cont_box > .item").click(function(){
+            $(".section1 > .cont_box > .item").removeClass("active");
+            $(this).addClass("active");
+        });
+
+        $("#section1").mouseenter(function(){
+            $(".scroll_dow").css({display:"block"});
+        });
+        $("#section2").mouseenter(function(){
+            $(".scroll_dow").css({display:"block"});
+        });
+        $("#section3").mouseenter(function(){
+            $(".scroll_dow").css({display:"block"});
+        });
+        $("#section5").mouseenter(function(){
+            $(".scroll_dow").css({display:"none"});
+        });
+        /* nav */
+        $(".meun_box > ul > li").mouseenter(function(){
+            $(this).find(".sub_menu li").stop().fadeIn(500);
+        })
+        .mouseleave(function(){
+            $(this).find(".sub_menu li").stop().hide();
+        });
+
+        $(".close").click(function(){
+            $(".search_box").removeClass("active");
+            $(".close").removeClass("active");
+        });
+
+        $(".search_box").click(function(){
+            $(".search_box").addClass("active");
+            $(".close").addClass("active");
+        });
+
+        $(".hamburger_meb").click(function(){
+            $(this).toggleClass("active");
+            $(".overlay").toggleClass("visible");
+        });
+
+        
+        $('#fullpage').fullpage({
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true,
+            navigation:true,
+            navigationPosition:"right",
+            // responsiveWidth: 800,
+            keyboardScrolling:true
+         });
+    </script>
+</body>
+</html>
